@@ -1,0 +1,40 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-image: url(../images/kapverde.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  font-size: 16px;
+}
+
+.container {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.days,
+.hr,
+.min,
+.sec {
+  width: 100px;
+  height: 100px;
+  background-color: rgb(226, 226, 226, 0.8);
+  display: flex;
+  justify-content: center;
+  border-radius: 5px;
+  font-weight: bold;
+  margin: 1rem;
+  align-items: center;
+}
+.time {
+  display: flex;
+  flex-direction: row;
+}
